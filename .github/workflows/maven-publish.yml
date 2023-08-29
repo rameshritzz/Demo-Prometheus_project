@@ -6,9 +6,9 @@ name: Maven Package
 on:
   ## Triggers on every PR to the mentioned branch
   pull_request: 
-    branches: [ feature ]
+    branches: [ main ]
   push:
-    branches: [ feature ]
+    branches: [ main ]
   release:
     types: [created]
 
